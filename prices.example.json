@@ -1,0 +1,6 @@
+{
+  "_note": "USD per million tokens. Fill from the official pricing page; zeros mean 'not set'. / USD por millón de tokens; rellena desde la página oficial de precios.",
+  "haiku":  { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+  "sonnet": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+  "opus":   { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }
+}

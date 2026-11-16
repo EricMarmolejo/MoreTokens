@@ -1,0 +1,13 @@
+{
+  "name": "moretokens",
+  "version": "1.0.0",
+  "description": "Claude Code skill (EN/ES) that routes bulk reading to cheaper models, plus a CLI that measures token usage per model.",
+  "type": "module",
+  "bin": { "moretokens": "bin/moretokens.mjs" },
+  "scripts": { "test": "node --test test/" },
+  "engines": { "node": ">=18" },
+  "keywords": ["claude-code", "skill", "tokens", "llm", "cost"],
+  "license": "MIT",
+  "author": "EricMarmolejo",
+  "repository": { "type": "git", "url": "git+https://github.com/EricMarmolejo/MoreTokens.git" }
+}

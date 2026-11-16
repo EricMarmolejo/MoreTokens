@@ -1,0 +1,14 @@
+[
+  { "name": "summarize 8 contracts into a table", "input": { "words": 40000, "fullRead": true, "judgment": "none", "decision": false }, "expect": { "helper": "lean", "decider": "current" } },
+  { "name": "translate a 20k-word manual", "input": { "words": 20000, "fullRead": true, "judgment": "none", "decision": false }, "expect": { "helper": "lean", "decider": "current" } },
+  { "name": "extract dates and amounts from 12 invoices", "input": { "words": 9000, "fullRead": true, "judgment": "none", "decision": false }, "expect": { "helper": "lean", "decider": "current" } },
+  { "name": "risk analysis of 3 long reports", "input": { "words": 30000, "fullRead": true, "judgment": "high", "decision": false }, "expect": { "helper": "mid", "decider": "current" } },
+  { "name": "draft documentation from 15 source files", "input": { "words": 12000, "fullRead": true, "judgment": "some", "decision": false }, "expect": { "helper": "mid", "decider": "current" } },
+  { "name": "pick a vendor after reading 5 proposals", "input": { "words": 25000, "fullRead": true, "judgment": "some", "decision": true }, "expect": { "helper": "mid", "decider": "deep" } },
+  { "name": "extract clauses then decide whether to sign", "input": { "words": 15000, "fullRead": true, "judgment": "none", "decision": true }, "expect": { "helper": "lean", "decider": "deep" } },
+  { "name": "which file defines X? (search, not full read)", "input": { "words": 80000, "fullRead": false, "judgment": "none", "decision": false }, "expect": { "helper": null, "decider": "current" } },
+  { "name": "fix a typo in one function", "input": { "words": 200, "fullRead": true, "judgment": "none", "decision": false }, "expect": { "helper": null, "decider": "current" } },
+  { "name": "choose an architecture for a small service", "input": { "words": 500, "fullRead": false, "judgment": "high", "decision": true }, "expect": { "helper": null, "decider": "deep" } },
+  { "name": "explain a 2k-word note", "input": { "words": 2000, "fullRead": true, "judgment": "some", "decision": false }, "expect": { "helper": null, "decider": "current" } },
+  { "name": "exactly at the delegation threshold, mechanical", "input": { "words": 3000, "fullRead": true, "judgment": "none", "decision": false }, "expect": { "helper": "lean", "decider": "current" } }
+]
